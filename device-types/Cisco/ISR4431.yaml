@@ -1,6 +1,7 @@
 manufacturer: Cisco
-model: ISR4331
-slug: isr4331
+model: ISR4431
+part_number: ISR4431/K9
+slug: isr4431
 u_height: 1
 is_full_depth: true
 interfaces:
@@ -10,8 +11,10 @@ interfaces:
   - name: GigabitEthernet0/0/0
     type: 1000base-x-sfp
   - name: GigabitEthernet0/0/1
-    type: 1000base-t    
+    type: 1000base-x-sfp
   - name: GigabitEthernet0/0/2
+    type: 1000base-x-sfp
+  - name: GigabitEthernet0/0/3
     type: 1000base-x-sfp
 console-ports:
   - name: con 0
